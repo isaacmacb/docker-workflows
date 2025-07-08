@@ -29,10 +29,10 @@ http://localhost:8080
 
 ## 🐳 Rodando com Docker
 Execute no terminal, na raiz do projeto:
-- docker build -t minha-app-node .
+- docker build -t app-node-docker .
 
 Rodar o container
-- docker run -p 3000:3000 minha-app-node
+- docker run -p 3000:3000 app-node-docker
 
 Acesse a aplicação em:
 - http://localhost:3000
